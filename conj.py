@@ -1,4 +1,4 @@
-print("Enter Verb")
+print("Enter Nerd")
 verb_input = input()
 #print("AR, ER, or IR")
 #r_input = input()
