@@ -165,6 +165,7 @@ present_ir_el = "e"
 present_ir_nos = "imos"
 present_ir_vos = "ís"
 present_ir_ellos = "en"
+
 preterite_ar_yo = "é"
 preterite_ar_tu = "aste"
 preterite_ar_el = "ó"
@@ -177,6 +178,34 @@ preterite_eir_el = "ió"
 preterite_eir_nos = "imos"
 preterite_eir_vos = "isteis"
 preterite_eir_ellos = "ieron"
+
+imperfect_ar_yo = "aba"
+imperfect_ar_tu = "abas"
+imperfect_ar_el = "aba"
+imperfect_ar_nos = "ábamos"
+imperfect_ar_vos = "abais"
+imperfect_ar_ellos = "aban"
+imperfect_eir_yo = "ía"
+imperfect_eir_tu = "ías"
+imperfect_eir_el = "ía"
+imperfect_eir_nos = "íamos"
+imperfect_eir_vos = "íais"
+imperfect_eir_ellos = "ían"
+
+future_aeir_yo = "é"
+future_aeir_tu = "ás"
+future_aeir_el = "á"
+future_aeir_nos = "emos"
+future_aeir_vos = "éis"
+future_aeir_ellos = "án"
+
+conditional_aeir_yo = "ía"
+conditional_aeir_tu = "ías"
+conditional_aeir_el = "ía"
+conditional_aeir_nos = "íamos"
+conditional_aeir_vos = "íais"
+conditional_aeir_ellos = "ían"
+
 if arform is True and pres_form is True and yo_form is True:
     final = verb_input.replace("ar", "")
     print(final + present_ar_yo)
@@ -290,3 +319,174 @@ elif irform is True and pret_form is True and vos_form is True:
 elif irform is True and pret_form is True and ellos_form is True:
     final = verb_input.replace("ir", "")
     print(final + preterite_eir_ellos)
+
+elif arform is True and imp_form is True and yo_form is True:
+    final = verb_input.replace("ar", "")
+    print(final + imperfect_ar_yo)
+elif arform is True and imp_form is True and tu_form is True:
+    final = verb_input.replace("ar", "")
+    print(final + imperfect_ar_tu)
+elif arform is True and imp_form is True and el_form is True:
+    final = verb_input.replace("ar", "")
+    print(final + imperfect_ar_el)
+elif arform is True and imp_form is True and nos_form is True:
+    final = verb_input.replace("ar", "")
+    print(final + imperfect_ar_nos)
+elif arform is True and imp_form is True and vos_form is True:
+    final = verb_input.replace("ar", "")
+    print(final + imperfect_ar_vos)
+elif arform is True and imp_form is True and ellos_form is True:
+    final = verb_input.replace("ar", "")
+    print(final + imperfect_ar_ellos)
+
+elif erform is True and imp_form is True and yo_form is True:
+    final = verb_input.replace("er", "")
+    print(final + imperfect_eir_yo)
+elif erform is True and imp_form is True and tu_form is True:
+    final = verb_input.replace("er", "")
+    print(final + imperfect_eir_tu)
+elif erform is True and imp_form is True and el_form is True:
+    final = verb_input.replace("er", "")
+    print(final + imperfect_eir_el)
+elif erform is True and imp_form is True and nos_form is True:
+    final = verb_input.replace("er", "")
+    print(final + imperfect_eir_nos)
+elif erform is True and imp_form is True and vos_form is True:
+    final = verb_input.replace("er", "")
+    print(final + imperfect_eir_vos)
+elif erform is True and imp_form is True and ellos_form is True:
+    final = verb_input.replace("er", "")
+    print(final + imperfect_eir_ellos)
+
+elif irform is True and imp_form is True and yo_form is True:
+    final = verb_input.replace("ir", "")
+    print(final + imperfect_eir_yo)
+elif irform is True and imp_form is True and tu_form is True:
+    final = verb_input.replace("ir", "")
+    print(final + imperfect_eir_tu)
+elif irform is True and imp_form is True and el_form is True:
+    final = verb_input.replace("ir", "")
+    print(final + imperfect_eir_el)
+elif irform is True and imp_form is True and nos_form is True:
+    final = verb_input.replace("ir", "")
+    print(final + imperfect_eir_nos)
+elif irform is True and imp_form is True and vos_form is True:
+    final = verb_input.replace("ir", "")
+    print(final + imperfect_eir_vos)
+elif irform is True and imp_form is True and ellos_form is True:
+    final = verb_input.replace("ir", "")
+    print(final + imperfect_eir_ellos)
+
+elif arform is True and fut_form is True and yo_form is True:
+    final = verb_input
+    print(final + future_aeir_yo)
+elif arform is True and fut_form is True and tu_form is True:
+    final = verb_input
+    print(final + future_aeir_tu)
+elif arform is True and fut_form is True and el_form is True:
+    final = verb_input
+    print(final + future_aeir_el)
+elif arform is True and fut_form is True and nos_form is True:
+    final = verb_input
+    print(final + future_aeir_nos)
+elif arform is True and fut_form is True and vos_form is True:
+    final = verb_input
+    print(final + future_aeir_vos)
+elif arform is True and fut_form is True and ellos_form is True:
+    final = verb_input
+    print(final + future_aeir_ellos)
+
+elif erform is True and fut_form is True and yo_form is True:
+    final = verb_input
+    print(final + future_aeir_yo)
+elif erform is True and fut_form is True and tu_form is True:
+    final = verb_input
+    print(final + future_aeir_tu)
+elif erform is True and fut_form is True and el_form is True:
+    final = verb_input
+    print(final + future_aeir_el)
+elif erform is True and fut_form is True and nos_form is True:
+    final = verb_input
+    print(final + future_aeir_nos)
+elif erform is True and fut_form is True and vos_form is True:
+    final = verb_input
+    print(final + future_aeir_vos)
+elif erform is True and fut_form is True and ellos_form is True:
+    final = verb_input
+    print(final + future_aeir_ellos)
+
+elif irform is True and fut_form is True and yo_form is True:
+    final = verb_input
+    print(final + future_aeir_yo)
+elif irform is True and fut_form is True and tu_form is True:
+    final = verb_input
+    print(final + future_aeir_tu)
+elif irform is True and fut_form is True and el_form is True:
+    final = verb_input
+    print(final + future_aeir_el)
+elif irform is True and fut_form is True and nos_form is True:
+    final = verb_input
+    print(final + future_aeir_nos)
+elif irform is True and fut_form is True and vos_form is True:
+    final = verb_input
+    print(final + future_aeir_vos)
+elif irform is True and fut_form is True and ellos_form is True:
+    final = verb_input
+    print(final + future_aeir_ellos)
+
+elif arform is True and con_form is True and yo_form is True:
+    final = verb_input
+    print(final + conditional_aeir_yo)
+elif arform is True and con_form is True and tu_form is True:
+    final = verb_input
+    print(final + conditional_aeir_tu)
+elif arform is True and con_form is True and el_form is True:
+    final = verb_input
+    print(final + conditional_aeir_el)
+elif arform is True and con_form is True and nos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_nos)
+elif arform is True and con_form is True and vos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_vos)
+elif arform is True and con_form is True and ellos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_ellos)
+
+elif erform is True and con_form is True and yo_form is True:
+    final = verb_input
+    print(final + conditional_aeir_yo)
+elif erform is True and con_form is True and tu_form is True:
+    final = verb_input
+    print(final + conditional_aeir_tu)
+elif erform is True and con_form is True and el_form is True:
+    final = verb_input
+    print(final + conditional_aeir_el)
+elif erform is True and con_form is True and nos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_nos)
+elif erform is True and con_form is True and vos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_vos)
+elif erform is True and con_form is True and ellos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_ellos)
+
+elif irform is True and con_form is True and yo_form is True:
+    final = verb_input
+    print(final + conditional_aeir_yo)
+elif irform is True and con_form is True and tu_form is True:
+    final = verb_input
+    print(final + conditional_aeir_tu)
+elif irform is True and con_form is True and el_form is True:
+    final = verb_input
+    print(final + conditional_aeir_el)
+elif irform is True and con_form is True and nos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_nos)
+elif irform is True and con_form is True and vos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_vos)
+elif irform is True and con_form is True and ellos_form is True:
+    final = verb_input
+    print(final + conditional_aeir_ellos)
